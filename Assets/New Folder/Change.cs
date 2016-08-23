@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
-public class Delete : MonoBehaviour {
+public class Change : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -11,5 +12,9 @@ public class Delete : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+	}
+
+	public void LoadScene (){
+		SceneManager.LoadScene("Save");
 	}
 }
