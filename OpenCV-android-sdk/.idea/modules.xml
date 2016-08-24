@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/samples/15-puzzle/15-puzzle.iml" filepath="$PROJECT_DIR$/samples/15-puzzle/15-puzzle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/camera-calibration/camera-calibration.iml" filepath="$PROJECT_DIR$/samples/camera-calibration/camera-calibration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/color-blob-detection/color-blob-detection.iml" filepath="$PROJECT_DIR$/samples/color-blob-detection/color-blob-detection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/face-detection/face-detection.iml" filepath="$PROJECT_DIR$/samples/face-detection/face-detection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/image-manipulations/image-manipulations.iml" filepath="$PROJECT_DIR$/samples/image-manipulations/image-manipulations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdk/java/sdk.iml" filepath="$PROJECT_DIR$/sdk/java/sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/tutorial-1-camerapreview/tutorial-1-camerapreview.iml" filepath="$PROJECT_DIR$/samples/tutorial-1-camerapreview/tutorial-1-camerapreview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/tutorial-2-mixedprocessing/tutorial-2-mixedprocessing.iml" filepath="$PROJECT_DIR$/samples/tutorial-2-mixedprocessing/tutorial-2-mixedprocessing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/tutorial-3-cameracontrol/tutorial-3-cameracontrol.iml" filepath="$PROJECT_DIR$/samples/tutorial-3-cameracontrol/tutorial-3-cameracontrol.iml" />
+    </modules>
+  </component>
+</project>
