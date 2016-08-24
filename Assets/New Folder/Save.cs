@@ -14,7 +14,7 @@ public class Save : MonoBehaviour {
 
 	}
 
-	public void OnClick() {
-		LoadGraphScreen( 50, 100, "a.png", TRUE );
+	public void push() {
+		transform.localScale = new Vector3(1, 1, 1);
 	}
 }
