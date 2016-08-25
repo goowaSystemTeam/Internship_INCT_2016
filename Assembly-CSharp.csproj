@@ -48,7 +48,6 @@
      <Compile Include="Assets\script\ButtonClick.cs" />
      <Compile Include="Assets\script\JsonNode.cs" />
      <Compile Include="Assets\script\MiniJSON.cs" />
-     <Compile Include="Assets\script\Theta.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
