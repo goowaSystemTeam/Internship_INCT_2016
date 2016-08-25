@@ -49,8 +49,6 @@
      <Compile Include="Assets\New Folder\Change.cs" />
      <Compile Include="Assets\New Folder\Delete.cs" />
      <Compile Include="Assets\New Folder\Save.cs" />
-     <Compile Include="Assets\New Folder\back1.cs" />
-     <Compile Include="Assets\New Folder\test.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
