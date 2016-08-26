@@ -139,7 +139,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698c4e37041004d308c60adcad36cf82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thetaImage: {fileID: 0}
 --- !u!114 &208167462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -552,8 +551,9 @@ GameObject:
   - 224: {fileID: 2127915818}
   - 222: {fileID: 2127915820}
   - 114: {fileID: 2127915819}
+  - 114: {fileID: 2127915821}
   m_Layer: 5
-  m_Name: ThetaImage
+  m_Name: thetaimage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -610,3 +610,14 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2127915817}
+--- !u!114 &2127915821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2127915817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547c092ab31a24064adb31b1cbe7f203, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

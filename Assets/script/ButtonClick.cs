@@ -5,9 +5,13 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 
-public class ButtonClick : MonoBehaviour {
+public class Image_theta {
+	//public static Image thetaImage;
+	public static Sprite sprite1;
+}
+	
 
-	public Image thetaImage;
+public class ButtonClick : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -33,7 +37,6 @@ public class ButtonClick : MonoBehaviour {
 
 	public void takePic () {
 		StartCoroutine (StartThetaS ());
-		SceneManager.LoadScene ("checkPic");
 	}
 
 
@@ -90,11 +93,18 @@ public class ButtonClick : MonoBehaviour {
 //		Sprite texture_sprite = Sprite.Create (texture, new Rect (0, 0, 5376, 2688), Vector2.zero);
 //		thetaImage.sprite = texture_sprite;
 
-		Texture2D texture = new Texture2D(2048, 1024);
+		//Texture2D texture = new Texture2D(2048, 1024);
+		Texture2D texture = new Texture2D(5376, 2688);
 		texture.LoadImage(www.bytes);
 		Sprite texture_sprite = Sprite.Create (texture, new Rect (0, 0, 5376, 2688), Vector2.zero);
-		thetaImage.sprite = texture_sprite;
+		//Image_theta.thetaImage.sprite1 = texture_sprite;
+		Debug.Log(texture_sprite);
+		Image_theta.sprite1 = texture_sprite;
 
+		if (Image_theta.sprite1 == null)
+			Debug.Log ("Image_theta is NULL");
+		else
+			Debug.Log("Image_theta isn't NULL");
 
 
 		jsonStr = "{\"name\": \"camera.closeSession\", \"parameters\": {\"sessionId\": \"" + sessionId + "\"}}";
@@ -102,5 +112,7 @@ public class ButtonClick : MonoBehaviour {
 		www = new WWW (url, postBytes, header);
 		yield return www;
 		Debug.Log(www.text);
+
+		SceneManager.LoadScene ("checkPic");
 	}
 }

@@ -11,3 +11,5 @@ EditorBuildSettings:
     path: Assets/THETA.unity
   - enabled: 1
     path: Assets/HowToUse.unity
+  - enabled: 1
+    path: Assets/checkPic.unity
