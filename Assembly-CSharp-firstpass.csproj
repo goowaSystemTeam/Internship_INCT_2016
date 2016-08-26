@@ -6,10 +6,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{34F27E95-E5CD-CC6D-E491-CDFC24C14E1C}</ProjectGuid>
+    <ProjectGuid>{782D1AEB-A428-405D-A96C-C686CAED93CF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
@@ -45,11 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\New Folder\Back.cs" />
-     <Compile Include="Assets\New Folder\Change.cs" />
-     <Compile Include="Assets\New Folder\Delete.cs" />
-     <Compile Include="Assets\New Folder\Save.cs" />
-     <Compile Include="Assets\New Folder\shot.cs" />
+     <Compile Include="Assets\Plugins\ios\asd.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
