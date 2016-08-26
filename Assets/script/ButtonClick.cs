@@ -39,6 +39,10 @@ public class ButtonClick : MonoBehaviour {
 		StartCoroutine (StartThetaS ());
 	}
 
+	public void screenshot () {
+		Application.CaptureScreenshot ("Screenshot.png");
+	}
+
 
 	IEnumerator StartThetaS () {
 		string url = "http://192.168.1.1/osc/info";
